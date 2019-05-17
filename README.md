@@ -89,6 +89,7 @@ apt install git oracle-java8-jdk python-pip python3-pip -y
 
 ##### Install Python3 Packages 
 _This section uses the following projects:_
+
 [Adafruit Circuitpython Modules for SBC's](https://github.com/adafruit/Adafruit_Blinka)
 
 [Blynk Python Module](https://github.com/blynkkk/lib-python)
