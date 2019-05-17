@@ -1,0 +1,14 @@
+[Unit]
+Description=Blynk IOT Server
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /home/pi/runblynk.sh
+WorkingDirectory=/home/pi/blynk
+StandardOutput=inherit
+StandardError=inherit
+Restart=Always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
