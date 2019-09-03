@@ -10,21 +10,31 @@ blynk_jar="https://github.com/blynkkk/blynk-server/releases/download/v0.41.10/se
 updateUpgrade() {
 	echo "Updating and installing java package"
 	apt-get update
-	apt-get upgrade
+	apt-get -y upgrade
+	clear
+	echo "Updated and Upgraded apt packages!"
+	sleep 0.5
+	clear
 }
 
 ### Install Openjdk 8
 installJDK() {
 	echo "Installing openjdk 8"
-	apt-get install $apt_needed
+	sleep 0.5
+	apt-get -y install $apt_needed
+	clear
 	echo "Openjdk 8 Installed"
+	sleep 0.5
 }
 
 ### Download JAR server file
 getJARfile() {
 	echo "Downloading server-0.41.10-java8.jar"
+	sleep 0.5
 	wget "$blynk_jar"
+	clear
 	echo "Download Complete"
+	sleep 0.5
 }
 
 ### Create Server Folders
@@ -34,6 +44,7 @@ makeFolders() {
 	echo "Server main folder created at ~/blynk_server"
 	mkdir /home/pi/blynk_server/data_folder
 	echo "Server data folder created at ~/blynk_server/data_folder"
+	sleep 0.5
 }
 
 ### Install Blynk as a service on start
