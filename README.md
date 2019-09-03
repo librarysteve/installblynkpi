@@ -99,3 +99,10 @@ sudo systemctl status blynk
   User/Email:admin@blynk.cc
   Password:admin
 __NOTE: Unless you have an email server running, there will be no email sent. That means no password reset__ 
+
+## Uninstall
+1) Make the uninstall script executable
+```shell
+chmod +x ./uninstall.sh
+```
+2) Run the uninstaller and follow the prompt
