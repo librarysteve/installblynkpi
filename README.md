@@ -1,4 +1,4 @@
-# :books: Install Blynk Server on Raspberry Pi :rocket:
+# Install Blynk Server on Raspberry Pi
 
 ## Quick Install
 
