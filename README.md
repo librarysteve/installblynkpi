@@ -9,8 +9,8 @@ git clone https://github.com/librarysteve/installblynkpi.git
 ```
 ```shell
 cd ./installblynkpi
-chmod +x ./install.sh
-./install.sh
+sudo chmod +x ./install.sh
+sudo ./install.sh
 ```
 ## Manual Install 
 1) Update, upgrade, and install openjdk 8
@@ -60,3 +60,26 @@ User=pi
 [Install]
 WantedBy=multi-user.target
 ```
+7) Enable the service with systemctl
+First start the service
+```shell
+sudo systemctl start blynk.service
+```
+Then enable
+```shell
+sudo systemctl enable blynk.service
+```
+Then check to see if it is running
+```shell
+sudo systemctl status blynk
+```
+*if you see an "actiuve" message (usually in green) you're good to go*
+
+### To access the admin pannel
+
+1) Browse to https://<RPi IP ADDRESS>:9443
+
+2) Login with default credentials
+  User/Email:admin@blynk.cc
+  Password:admin
+__NOTE: Unless you have an email server running, there will be no email sent. That means no password reset__ 
