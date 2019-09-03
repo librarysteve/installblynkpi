@@ -62,7 +62,7 @@ if [[ $user == 'root' ]]; then
 		echo "start_blynk_server.sh"
 		echo "to start the server"
 	fi
-	
+
 else
 	echo "Must have root access to install server."
 	echo "Maybe try again with:   sudo ./install.sh "
