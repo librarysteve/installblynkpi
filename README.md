@@ -6,7 +6,7 @@
 
 [Access the admin pannel](https://github.com/librarysteve/installblynkpi#to-access-the-admin-pannel)
 
-Uninstall info
+[Uninstall info](https://github.com/librarysteve/installblynkpi/blob/master/README.md#uninstall)
 
 This script does the following:
   * Update and Upgrade
