@@ -39,6 +39,7 @@ makeFolders() {
 ### Install Blynk as a service on start
 installService() {
 	mv ./server-0.41.10-java8.jar /home/pi/blynk_server/server-0.41.10-java8.jar
+	cp ./start_blynk_server.sh /home/pi/blynk_server/start_blynk_server.sh
 	cp ./blynk.service /etc/systemd/system/blynk.service
 	systemctl start blynk.service
 	systemctl enable blynk.service
