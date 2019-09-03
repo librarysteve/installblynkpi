@@ -93,7 +93,7 @@ sudo systemctl status blynk
 
 ## To access the admin pannel
 
-1) Browse to https://<RPi IP ADDRESS>:9443
+1) Browse to https://(RPi IP ADDRESS):9443
 
 2) Login with default credentials
   User/Email:admin@blynk.cc
