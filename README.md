@@ -18,7 +18,7 @@ sudo ./install.sh
 sudo apt-get update && sudo apt-get -y upgrade
 ```
 ```shell
-sudo apt-get insta;; -y openjdk-8-jdk
+sudo apt-get install -y openjdk-8-jdk
 ```
 2) Download a copy of the latest blynk server from [The Blynk Server Repo](https://github.com/blynkkk/blynk-server/releases)
 or via wget
