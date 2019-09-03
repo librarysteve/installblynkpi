@@ -1,5 +1,18 @@
 # Install Blynk Server on Raspberry Pi
-This script will install the Blynk Server and enable it as a service on startup if you would like.
+
+[Quick install](https://github.com/librarysteve/installblynkpi#quick-install)
+
+[Manual install](https://github.com/librarysteve/installblynkpi#manual-install)
+
+[Access the admin pannel](https://github.com/librarysteve/installblynkpi#to-access-the-admin-pannel)
+
+Uninstall info
+
+This script does the following:
+  * Update and Upgrade
+  * Installs OpenJDK 8
+  * Downloads and initializes the Blynk Server
+  * Installs the server as a systemd service if you so choose
 
 ## Quick Install
 
