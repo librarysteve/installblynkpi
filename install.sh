@@ -30,16 +30,16 @@ getJARfile() {
 ### Create Server Folders
 makeFolders() {
 	echo "Creating Server Folders"
-	mkdir /home/user/pi/blynk_server
+	mkdir /home/pi/blynk_server
 	echo "Server main folder created at ~/blynk_server"
-	mkdir /home/user/pi/blynk_server/data_folder
+	mkdir /home/pi/blynk_server/data_folder
 	echo "Server data folder created at ~/blynk_server/data_folder"
 }
 
 ### Install Blynk as a service on start
 installService() {
-	mv server-0.41.10-java8.jar /home/pi/blynk_server/server-0.41.10-java8.jar
-	cp /blynk/blynk.service /ets/systemd/system/blynk.service
+	mv ./server-0.41.10-java8.jar /home/pi/blynk_server/server-0.41.10-java8.jar
+	cp ./blynk.service /etc/systemd/system/blynk.service
 	systemctl start blynk.service
 	systemctl enable blynk.service
 }
