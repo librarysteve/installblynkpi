@@ -89,7 +89,7 @@ Then check to see if it is running
 ```shell
 sudo systemctl status blynk
 ```
-*if you see an "actiuve" message (usually in green) you're good to go*
+*if you see an "active" message (usually in green) you're good to go*
 
 ## To access the admin pannel
 
