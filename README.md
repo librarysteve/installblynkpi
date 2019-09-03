@@ -12,3 +12,12 @@ cd ./installblynkpi
 chmod +x ./install.sh
 ./install.sh
 ```
+## Manual Install 
+1) Update, upgrade, and install openjdk 8
+```shell
+sudo apt-get update && sudo apt-get -y upgrade
+```
+```shell
+sudo apt-get insta;; -y openjdk-8-jdk
+```
+2) 
