@@ -3,12 +3,12 @@ Description=Blynk IoT Server
 After=network.target
 
 [Service]
-ExecStart=/bin/bash /home/pi/blynk_server/start_blynk_server.sh
+ExecStart=/home/pi/blynk_server/start_blynk_server.sh
 WorkingDirectory=/home/pi/blynk_server
 StandardOutput=inherit
 StandardError=inherit
 Restart=Always
-User=Pi
+User=pi
 
 [Install]
 WantedBy=multi-user.target
