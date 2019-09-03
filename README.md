@@ -78,7 +78,7 @@ sudo systemctl status blynk
 ```
 *if you see an "actiuve" message (usually in green) you're good to go*
 
-### To access the admin pannel
+## To access the admin pannel
 
 1) Browse to https://<RPi IP ADDRESS>:9443
 
