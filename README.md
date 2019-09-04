@@ -16,7 +16,7 @@ This script does the following:
 
 ## Quick Install
 
-1) Clone and run this repo
+1) Clone this repo
 
 ```shell
 git clone https://github.com/librarysteve/installblynkpi.git
