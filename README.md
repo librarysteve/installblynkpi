@@ -21,6 +21,7 @@ This script does the following:
 ```shell
 git clone https://github.com/librarysteve/installblynkpi.git
 ```
+2) Run the installer script
 ```shell
 cd ./installblynkpi
 ```
@@ -30,7 +31,7 @@ sudo chmod +x ./install.sh
 ```shell
 sudo ./install.sh
 ```
-2) Answer "Yes" if you would like it to start on boot
+3) Answer "Yes" if you would like it to start on boot
 
 ## Manual Install 
 1) Update, upgrade, and install openjdk 8
