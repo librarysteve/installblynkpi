@@ -23,7 +23,11 @@ git clone https://github.com/librarysteve/installblynkpi.git
 ```
 ```shell
 cd ./installblynkpi
+```
+```shell
 sudo chmod +x ./install.sh
+```
+```shell
 sudo ./install.sh
 ```
 2) Answer "Yes" if you would like it to start on boot
