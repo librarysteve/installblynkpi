@@ -8,7 +8,6 @@ WorkingDirectory=/home/pi/blynk_server
 StandardOutput=inherit
 StandardError=inherit
 Restart=Always
-User=pi
 
 [Install]
 WantedBy=multi-user.target
